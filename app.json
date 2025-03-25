@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "tripwise_mobile",
-    "slug": "tripwise_mobile",
+    "slug": "tripwise",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "154cd06d-1c19-40d7-a9a5-bc17a2528aa1"
+      }
+    },
+    "owner": "exowz"
   }
 }
