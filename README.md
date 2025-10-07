@@ -1,50 +1,69 @@
-# Welcome to your Expo app 👋
+# TripWise Mobile
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A mobile travel companion application built with React Native and Expo to help you plan, organize, and enjoy your trips.
 
-## Get started
+## 📱 About
 
-1. Install dependencies
+TripWise Mobile is a cross-platform mobile application designed to make travel planning and management seamless. Whether you're planning a weekend getaway or a month-long adventure, TripWise helps you keep everything organized in one place.
 
-   ```bash
-   npm install
-   ```
+## ✨ Features
 
-2. Start the app
+- Cross-platform support (iOS & Android)
+- File-based routing with Expo Router
+- Modern React Native architecture
+- Responsive and intuitive UI
 
-   ```bash
-    npx expo start
-   ```
+## 🚀 Getting Started
 
-In the output, you'll find options to open the app in a
+### Prerequisites
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Node.js (LTS version recommended)
+- npm or yarn
+- Expo CLI
+- iOS Simulator (Mac only) or Android Emulator
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Installation
 
-## Get a fresh project
-
-When you're ready, run:
-
+1. Clone the repository:
 ```bash
-npm run reset-project
+git clone https://github.com/Exowz/tripwise_mobile.git
+cd tripwise_mobile
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Install dependencies:
+```bash
+npm install
+```
 
-## Learn more
+3. Start the development server:
+```bash
+npx expo start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+### Running the App
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+After starting the development server, you have several options:
 
-## Join the community
+- **Development build**: For full native features
+- **Android emulator**: Press `a` in the terminal
+- **iOS simulator**: Press `i` in the terminal (Mac only)
+- **Expo Go**: Scan the QR code with the Expo Go app on your physical device
 
-Join our community of developers creating universal apps.
+## 🛠️ Built With
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [Expo](https://expo.dev) - React Native framework
+- [React Native](https://reactnative.dev) - Mobile app framework
+- [Expo Router](https://docs.expo.dev/router/introduction) - File-based routing
+
+## 📁 Project Structure
+
+```
+tripwise_mobile/
+├── app/              # Main application code with file-based routing
+├── assets/           # Images, fonts, and other static resources
+├── components/       # Reusable components
+├── app.json          # Expo configuration
+└── package.json      # Project dependencies
+```
+
+## 🔧 Deve
